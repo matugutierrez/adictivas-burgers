@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Menú de Adictivas Burgers: hamburguesas smash, combos y papas en El Jagüel.">
+  <link rel="icon" type="image/svg+xml" href="imagenes/favicon.svg">
+  <title>Menú | Adictivas Burgers</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Ir al contenido</a>
+
+  <header class="site-header">
+    <nav class="navigation-bar" aria-label="Navegación principal">
+      <a class="brand-mark" href="index.html" aria-label="Adictivas Burgers, inicio">
+        <span>Adictivas</span>
+        <span>Burgers</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+    <nav class="mobile-navigation" id="mobile-navigation" aria-label="Navegación móvil">
+      <ul class="mobile-navigation-list">
+        <li>
+          <a href="index.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Inicio</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="menu.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Menú</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="nosotros.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Nosotros</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="contacto.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Contacto</span></span>
+          </a>
+        </li>
+      </ul>
+      <div class="mobile-navigation-details">
+        <span>Evita 807, El Jagüel</span>
+        <a href="tel:+541166687006">011 6668-7006</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido-principal" class="site-main">
+    <section class="page-hero page-hero-graphic" aria-labelledby="menu-title">
+      <div class="page-hero-content">
+        <p class="hero-kicker">Carta de la casa</p>
+        <h1 class="display-title" id="menu-title">Menú.</h1>
+        <p class="page-introduction">Burgers smash preparadas al momento con porción de papas incluidas.</p>
+      </div>
+    </section>
+
+    <section class="content-section" aria-labelledby="menu-list-title">
+      <div class="page-heading-section">
+        <div>
+          <div class="section-topline">
+            <span class="section-label">Nuestras Hamburguesas</span>
+          </div>
+          <h2 class="section-title small-display" id="menu-list-title">Para pedir ahora.</h2>
+        </div>
+        <p class="intro-copy">Escribinos directamente por WhatsApp para hacer tu pedido.</p>
+      </div>
+
+      <div class="menu-grid menu-grid-compact">
+        <article class="menu-card">
+          <div class="menu-card-image-wrap">
+            <img class="menu-card-image" src="imagenes/clasica.webp" alt="Hamburguesa Clásica" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-heading">
+              <h3 class="product-name">Clásica</h3>
+              <span class="menu-number">01 / Burger</span>
+            </div>
+            <p class="menu-description">La de siempre, bien fresca.</p>
+            <p class="menu-ingredients">Pan brioche, blend de carne 110g, lechuga, tomate y porción de papas.</p>
+            <a class="menu-order-button" href="https://wa.me/5491166687006?text=Hola%2C%20quiero%20pedir%20la%20Cl%C3%A1sica" target="_blank" rel="noopener">Pedir esta burger</a>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-image-wrap">
+            <img class="menu-card-image" src="imagenes/chedar.webp" alt="Hamburguesa Cheddar" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-heading">
+              <h3 class="product-name">Cheddar</h3>
+              <span class="menu-number">02 / Burger</span>
+            </div>
+            <p class="menu-description">Doble queso cheddar fundido.</p>
+            <p class="menu-ingredients">Pan brioche, blend de carne 110g, doble cheddar y porción de papas.</p>
+            <a class="menu-order-button" href="https://wa.me/5491166687006?text=Hola%2C%20quiero%20pedir%20la%20Cheddar" target="_blank" rel="noopener">Pedir esta burger</a>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-image-wrap">
+            <img class="menu-card-image" src="imagenes/cuarto de libra.webp" alt="Hamburguesa Cuarto de Libra" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-heading">
+              <h3 class="product-name">Cuarto de Libra</h3>
+              <span class="menu-number">03 / Burger</span>
+            </div>
+            <p class="menu-description">La combinación tradicional.</p>
+            <p class="menu-ingredients">Pan brioche, blend de carne 110g, cheddar, cebolla, kétchup, mostaza y porción de papas.</p>
+            <a class="menu-order-button" href="https://wa.me/5491166687006?text=Hola%2C%20quiero%20pedir%20el%20Cuarto%20de%20Libra" target="_blank" rel="noopener">Pedir esta burger</a>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-image-wrap">
+            <img class="menu-card-image" src="imagenes/bacon.webp" alt="Hamburguesa Bacon" loading="lazy">
+          </div>
+          <div class="menu-card-content">
+            <div class="menu-card-heading">
+              <h3 class="product-name">Bacon</h3>
+              <span class="menu-number">04 / Burger</span>
+            </div>
+            <p class="menu-description">Con panceta crocante ahumada.</p>
+            <p class="menu-ingredients">Pan brioche, blend de carne 110g, cheddar, bacon y porción de papas.</p>
+            <a class="menu-order-button" href="https://wa.me/5491166687006?text=Hola%2C%20quiero%20pedir%20la%20Bacon" target="_blank" rel="noopener">Pedir esta burger</a>
+          </div>
+        </article>
+
+        <div class="menu-more-card">
+          <span class="menu-number">Variedad de la casa</span>
+          <h3 class="menu-more-title">... Y mucho más</h3>
+          <p class="menu-more-text">Panchos, papas con cheddar y bacon, bebidas y adicionales. Consultá la carta completa al realizar tu pedido por WhatsApp.</p>
+        </div>
+      </div>
+
+      <div class="menu-extra-note">
+        <p class="menu-extra-text">Pedí tu combo directamente por WhatsApp o Rappi.</p>
+        <div class="action-group">
+          <a class="button-primary" href="https://wa.me/5491166687006?text=Hola%20Adictivas%20Burgers%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <a class="button-outline" href="https://www.rappi.com.ar/restaurantes/270927-adictivas-burger" target="_blank" rel="noopener">Pedir por Rappi</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-top">
+        <div>
+          <a class="footer-logo" href="index.html"><span>Adictivas</span><span>Burgers</span></a>
+          <p class="footer-copy">Hamburguesas hechas para volver. Evita 807, El Jagüel.</p>
+        </div>
+        <div class="footer-links">
+          <span class="footer-label">Navegar</span>
+          <a href="index.html">Inicio</a>
+          <a href="menu.html">Menú</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="footer-contact">
+          <span class="footer-label">Contacto</span>
+          <a href="tel:+541166687006">011 6668-7006</a>
+          <a href="https://wa.me/5491166687006" target="_blank" rel="noopener">WhatsApp</a>
+          <p>Evita 807, El Jagüel</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Adictivas Burgers · Hecho por Matias - <a href="mailto:matugutierrez7@gmail.com">matugutierrez7@gmail.com</a></p>
+        <p>Martes a Domingo, 11:30 a 00:00</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-button" href="https://wa.me/5491166687006?text=Hola%20Adictivas%20Burgers%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" aria-label="Hacer un pedido por WhatsApp">WA</a>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

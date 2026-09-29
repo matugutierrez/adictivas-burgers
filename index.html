@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adictivas Burgers: hamburguesas smash, papas y combos con mucho sabor en El Jagüel.">
+  <link rel="icon" type="image/svg+xml" href="imagenes/favicon.svg">
+  <title>Adictivas Burgers | Hamburguesas hechas para volver</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Ir al contenido</a>
+  <header class="site-header">
+    <nav class="navigation-bar" aria-label="Navegación principal">
+      <a class="brand-mark" href="index.html" aria-label="Adictivas Burgers, inicio">
+        <span>Adictivas</span>
+        <span>Burgers</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+    <nav class="mobile-navigation" id="mobile-navigation" aria-label="Navegación móvil">
+      <ul class="mobile-navigation-list">
+        <li>
+          <a href="index.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Inicio</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="menu.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Menú</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="nosotros.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Nosotros</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="contacto.html">
+            <span class="fullscreen-nav-left"><span class="fullscreen-nav-label">Contacto</span></span>
+          </a>
+        </li>
+      </ul>
+      <div class="mobile-navigation-details">
+        <span>Evita 807, El Jagüel</span>
+        <a href="tel:+541166687006">011 6668-7006</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido-principal" class="site-main">
+    <section class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-background" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-kicker">El Jagüel, Buenos Aires</p>
+        <h1 class="hero-title" id="hero-title">Adictivas<br><span class="outline-word">Burgers</span></h1>
+        <div class="hero-bottom-row">
+          <p class="hero-description">Smash burgers de verdad, ingredientes de calidad y sabor inigualable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" aria-labelledby="destacadas-title">
+      <div class="section-topline">
+        <span class="section-label">Menú de la casa</span>
+        <span class="section-index">Nuestras Burgers</span>
+      </div>
+      <h2 class="section-title small-display" id="destacadas-title">Las más pedidas.</h2>
+      
+      <div class="featured-grid">
+        <article class="featured-burger">
+          <img class="featured-image" src="imagenes/clasica.webp" alt="Hamburguesa Clásica" loading="lazy">
+          <div class="featured-content">
+            <p class="product-meta">01 / Burger</p>
+            <h3 class="featured-name">Clásica</h3>
+            <p class="featured-description">Pan brioche, carne 110g, lechuga, tomate y papas.</p>
+          </div>
+        </article>
+
+        <article class="featured-burger">
+          <img class="featured-image" src="imagenes/chedar.webp" alt="Hamburguesa Cheddar" loading="lazy">
+          <div class="featured-content">
+            <p class="product-meta">02 / Burger</p>
+            <h3 class="featured-name">Cheddar</h3>
+            <p class="featured-description">Pan brioche, carne 110g, doble cheddar y papas.</p>
+          </div>
+        </article>
+
+        <article class="featured-burger">
+          <img class="featured-image" src="imagenes/cuarto de libra.webp" alt="Hamburguesa Cuarto de Libra" loading="lazy">
+          <div class="featured-content">
+            <p class="product-meta">03 / Burger</p>
+            <h3 class="featured-name">Cuarto de Libra</h3>
+            <p class="featured-description">Blend 110g, cheddar, cebolla, kétchup, mostaza y papas.</p>
+          </div>
+        </article>
+
+        <article class="featured-burger">
+          <img class="featured-image" src="imagenes/bacon.webp" alt="Hamburguesa Bacon" loading="lazy">
+          <div class="featured-content">
+            <p class="product-meta">04 / Burger</p>
+            <h3 class="featured-name">Bacon</h3>
+            <p class="featured-description">Pan brioche, carne 110g, cheddar, bacon y papas.</p>
+          </div>
+        </article>
+      </div>
+
+      <a class="text-link" href="menu.html">Ver Menú</a>
+    </section>
+
+    <section class="menu-preview-section" aria-labelledby="menu-preview-title">
+      <div class="content-section">
+        <div class="section-topline">
+          <span class="section-label">Menú</span>
+          <span class="section-index">Carta de la casa</span>
+        </div>
+        <div class="menu-preview-layout">
+          <div>
+            <h2 class="section-title" id="menu-preview-title">Elegí tu<br><span class="outline-title">obsesión.</span></h2>
+            <p class="menu-description">Burgers, papas, combos y todo lo que necesitás para resolver tu comida.</p>
+            <a class="text-link" href="menu.html">Explorar Menú</a>
+          </div>
+          <div class="menu-preview-list">
+            <article class="menu-preview-row">
+              <div>
+                <span class="menu-number">01 / Burgers</span>
+                <h3>Clásica</h3>
+                <p>Pan brioche, blend de carne 110g, lechuga, tomate y papas.</p>
+              </div>
+            </article>
+            <article class="menu-preview-row">
+              <div>
+                <span class="menu-number">02 / Burgers</span>
+                <h3>Cheddar</h3>
+                <p>Pan brioche, blend de carne 110g, doble cheddar y papas.</p>
+              </div>
+            </article>
+            <article class="menu-preview-row">
+              <div>
+                <span class="menu-number">03 / Burgers</span>
+                <h3>Cuarto de Libra</h3>
+                <p>Blend 110g, cheddar, cebolla, kétchup, mostaza y papas.</p>
+              </div>
+            </article>
+            <article class="menu-preview-row">
+              <div>
+                <span class="menu-number">04 / Burgers</span>
+                <h3>Bacon</h3>
+                <p>Pan brioche, blend de carne 110g, cheddar, bacon y papas.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section location-section" aria-labelledby="local-title">
+      <div class="location-content">
+        <h2 class="section-title small-display" id="local-title">Encontranos.</h2>
+        <div class="location-details">
+          <div>
+            <span class="info-label">Ubicación y Horarios</span>
+            <span class="local-info-value">El Jagüel</span>
+          </div>
+          <div>
+            <span class="info-label">Dirección</span>
+            <a class="local-info-value" href="https://www.google.com/maps/search/?api=1&query=Evita+807,+El+Jag%C3%BCel,+Provincia+de+Buenos+Aires" target="_blank" rel="noopener">Evita 807, El Jagüel, Buenos Aires</a>
+          </div>
+          <div>
+            <span class="info-label">Horarios</span>
+            <span class="local-info-value">Martes a Domingo, 11:30 a 00:00 (Viernes y Sábados hasta 01:30)</span>
+          </div>
+          <div>
+            <span class="info-label">Teléfono</span>
+            <a class="local-info-value" href="tel:+541166687006">011 6668-7006</a>
+          </div>
+        </div>
+        <a class="text-link" href="contacto.html">Pedir por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-top">
+        <div>
+          <a class="footer-logo" href="index.html"><span>Adictivas</span><span>Burgers</span></a>
+          <p class="footer-copy">Hamburguesas hechas para volver. Evita 807, El Jagüel.</p>
+        </div>
+        <div class="footer-links">
+          <span class="footer-label">Navegar</span>
+          <a href="index.html">Inicio</a>
+          <a href="menu.html">Menú</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="footer-contact">
+          <span class="footer-label">Contacto</span>
+          <a href="tel:+541166687006">011 6668-7006</a>
+          <a href="https://wa.me/5491166687006" target="_blank" rel="noopener">WhatsApp</a>
+          <p>Evita 807, El Jagüel</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Adictivas Burgers · Hecho por Matias - <a href="mailto:matugutierrez7@gmail.com">matugutierrez7@gmail.com</a></p>
+        <p>Martes a Domingo, 11:30 a 00:00</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-button" href="https://wa.me/5491166687006?text=Hola%20Adictivas%20Burgers%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" aria-label="Hacer un pedido por WhatsApp">WA</a>
+  <script src="js/main.js"></script>
+</body>
+</html>
